@@ -2,8 +2,6 @@
 
 Computer Vision course project developed with **PyTorch**. We trained a convolutional neural network from scratch to classify natural scenes into six categories: **buildings, forest, glacier, mountain, sea and street**.
 
-Developed by **Isabel Gregorio Díez** and **Carlota Campos Rubio**.
-
 ## Results
 
 The final run reached **89.86% validation accuracy** and **90.61% closed-set test accuracy**. Most errors appear between visually similar classes, especially **buildings / street** and **glacier / mountain**.
@@ -59,6 +57,10 @@ The dataset is downloaded directly in the notebook using `kagglehub`, so the CSV
 pip install -r requirements.txt
 jupyter notebook notebooks/scene_classification.ipynb
 ```
+
+## Authors
+
+Developed by **Isabel Gregorio Díez** and **Carlota Campos Rubio**.
 
 During training, model checkpoints are written to `outputs/`, which is ignored by Git.
 
